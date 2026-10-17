@@ -1,0 +1,30 @@
+name: DHNet
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - libblas=*=*openblas
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+  - dask
+  - h5py
+  - h5netcdf
+  - netcdf4
+  - pyproj
+  - pyshp
+  - rasterio
+  - requests
+  - pyyaml
+  - matplotlib
+  - pillow
+  - pytorch=2.5
+  - pytorch-cuda=12.4
+  - pip:
+      - lightning==2.6.5
+      - cdsapi>=0.7.7

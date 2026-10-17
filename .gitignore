@@ -1,0 +1,40 @@
+# Python caches and build products
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+.idea/
+.vscode/
+
+# Test, notebook, and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Large hydrological datasets and generated outputs
+data_repository/*
+!data_repository/README.md
+outputs/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.nc
+*.npz
+*.tif
+*.tiff
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini

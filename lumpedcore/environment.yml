@@ -1,0 +1,17 @@
+name: LumpedHBV92
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+  - h5py
+  - h5netcdf
+  - pyyaml
+  - matplotlib
+  - pip
+  - pip:
+      - spotpy==1.6.7
