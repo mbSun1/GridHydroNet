@@ -23,7 +23,6 @@ env/
 
 # Large hydrological datasets and generated outputs
 data_repository/*
-!data_repository/README.md
 outputs/
 *.ckpt
 *.pt
@@ -33,6 +32,9 @@ outputs/
 *.npz
 *.tif
 *.tiff
+
+# Local manuscript and model documentation
+/readme/
 
 # Operating-system files
 .DS_Store
